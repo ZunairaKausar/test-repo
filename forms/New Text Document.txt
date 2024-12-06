@@ -1,0 +1,62 @@
+
+<Form Methode= " " action ="  " enctype= "  ">   </Form>
+
+   *In Action we use an URL otherwise our information will submit on the same website.
+
+ *Methode:
+    1.Get (unsecure Method)
+          <Form Methode= "GET" action="  " enctype="  ">  </Form>
+         <Form Methode= "GET" action="  " Multitype="  ">  </Form>  (file tag informaton for user in file form)
+
+ *Most important formate at that place you want to share the information but don't know how?(Don't have form)     
+          www.xyz.com/Form.HTML 
+               ?Fullname=Zunaira Rasheed&FirstName=Zunaira&LastName=Rasheed
+
+    2.Post (secure methode)
+       - Don't get information in URL
+       - get information from Server site
+       -Add Information only on secure site HTTP type website
+
+*Most important attribute "name"
+  Work as a lable
+   <Input type="text" Value"------" Name"Full name">
+   <Input type="text" Value"------" Name"Last name">
+      *The attribute of value should be emply for user.
+      *PHP is use information by name.
+
+ *Action: An internet URL of the form
+     Submit on a particular URl
+ *<Input type=" text or number  ">
+     1. for imge or docoment we use 'file'
+     2. the information in which you said choose only one from multipal option information you have to use 'radio' type
+     3. the information in which you said choose multipal optionsfrom multipal options you have to use 'Checrbox' type
+   *For email:
+        A-Z-a-z @domain.com
+*Example of radio:(same for chackbox)
+<Input type="radio" value="Male">
+<Input type="radio" value="Female">
+
+*<Select>
+     <option> PK </option>
+     <option> USA </option>
+     <option> AS </option>
+</Select>
+
+ * to write alot of information we use the TAG "textarea"
+      <textarea>  
+           *tag:rows"  " and columns "  "
+      </textarea>
+
+*For Submit a file:
+     <Form Methode= "GET" action="  " enctype="  ">  
+         <input type="Submit" Value=" " name="save"
+      </Form>
+
+ *Syntex:
+  $Request[]
+  $Post[]
+  $Get[]
+
+
+     
+        
