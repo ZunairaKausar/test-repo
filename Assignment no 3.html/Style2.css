@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    font-size: medium;
+    line-height: 2;
+    background-color: rgb(184, 179, 175);
+    height: 600px;
+    
+}
+.form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 700px;
+    margin: 30px auto;
+    background-color:white;
+    border: 2px solid black;
+    padding: 30px 30px;
+    height:600px ;
+
+    
+}
+h1{
+    text-align: center;
+}
+.religion{
+    display:block ;
+    padding-right:80%;
+
+}
+footer{
+    text-align: center;
+}
+button{
+    background-color: aqua;
+    font-size: large;
+
+}
+
